@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Quick README / Customization Guide
+    ---------------------------------
+    1) Replace logo:
+       - Update file: ./assets/logo.png
+       - Used in header and footer via .brand-logo image tags.
+
+    2) Update phone numbers:
+       - Search for: tel:0132504420 and tel:+60102505477
+       - Also update visible text in hero/contact/footer sections.
+
+    3) Update WhatsApp links:
+       - Search for: https://wa.me/60132504420 and https://wa.me/60102505477
+
+    4) Replace images:
+       - Hero image and gallery cards are in this file with comments "Replaceable image".
+       - Swap src URLs with your own images in ./assets/ if preferred.
+
+    5) Update map embed:
+       - Replace the iframe src in the Contact section.
+       - Update maps query links (search for "maps.google.com" and "google.com/maps/search").
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Glow and Glam Beaute Centre in Puchong, Malaysia. Elegant beauty and wellness treatments including hair, facial, skin, and massage care.">
+  <title>Glow and Glam Beaute Centre | Beauty for All</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="spa-bg" aria-hidden="true">
+  <span class="spa-orb orb-1"></span>
+  <span class="spa-orb orb-2"></span>
+  <span class="spa-orb orb-3"></span>
+  <span class="spa-orb orb-4"></span>
+</div>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header" id="home">
+    <div class="container header-inner">
+      <a href="#home" class="brand" aria-label="Glow and Glam Beaute Centre home">
+        <img src="./assets/logo.png" alt="Glow and Glam Beaute Centre logo" class="brand-logo">
+        <div class="brand-text">
+          <strong>Glow and Glam Beaute Centre</strong>
+          <span>Beauty for all</span>
+        </div>
+      </a>
+
+      <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="main-nav" class="main-nav" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#why-us">Why Choose Us</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Health &amp; Beauty Sanctuary in Puchong</p>
+          <h1>Discover Your Natural Radiance with Trusted Beauty Care</h1>
+          <p>
+            Welcome to <strong>Glow and Glam Beaute Centre</strong>, Beauty for all.
+            Enjoy rejuvenating skincare, restorative treatments, and thoughtful self-care experiences
+            designed to bring out your inner glow with timeless elegance and modern care.
+          </p>
+          <div class="cta-group">
+            <a class="btn btn-primary" href="https://wa.me/60132504420" target="_blank" rel="noopener" aria-label="Book appointment via WhatsApp">Book via WhatsApp</a>
+            <a class="btn btn-outline" href="tel:0132504420" aria-label="Call Glow and Glam Beaute Centre now">Call Now</a>
+            <a class="btn btn-soft" href="https://www.google.com/maps/search/?api=1&query=No%2019-2%20Jalan%20BK%205A%2F3A%2C%20Bandar%20Kinrara%2C%20Puchong%2C%20Malaysia" target="_blank" rel="noopener" aria-label="View Glow and Glam Beaute Centre location in Google Maps">View Location</a>
+          </div>
+        </div>
+        <div class="hero-side-card reveal delay-1">
+  <div class="hero-side-inner">
+
+
+        <div class="hero-visual reveal delay-1">
+          <!-- Replaceable image: update src with your own spa photo if desired -->
+         
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <section id="about" class="section about reveal">
+  <div class="container">
+    <h2>About Glow and Glam Beaute Centre</h2>
+    <p>
+      At Glow and Glam Beaute Centre, we believe beauty and wellness should feel effortless, warm, and personal.
+      Our spa is thoughtfully designed to help you unwind, recharge, and feel cared for from the moment you arrive.
+      Located in Bandar Kinrara, Puchong, we offer beauty care and relaxation treatments that combine professional technique,
+      gentle products, and a truly welcoming environment for every client.
+    </p>
+  </div>
+</section>
+
+    <section id="services" class="section services">
+  <div class="container">
+    <div class="section-heading reveal">
+      <h2>Our Services</h2>
+      <p>Professional beauty and wellness treatments designed for relaxation, care, and confidence.</p>
+    </div>
+
+    <div class="service-category reveal">
+      <h3>Relaxation & Body Care</h3>
+      <div class="card-grid services-compact">
+        <article class="service-card">
+          <h4>Relaxing Treatment</h4>
+        
+        </article>
+        <article class="service-card">
+          <h4>Sauna &amp; Body Scrub</h4>
+          
+        </article>
+      </div>
+    </div>
+
+    <div class="service-category reveal delay-1">
+      <h3>Facial Treatments</h3>
+      <div class="card-grid services-compact">
+        <article class="service-card"><h4>Normal Facial</h4></article>
+        <article class="service-card"><h4>Collagen</h4></article>
+        <article class="service-card"><h4>Sinus / Acne</h4></article>
+        <article class="service-card"><h4>Vitamin C</h4></article>
+        <article class="service-card"><h4>Mud Whitening</h4></article>
+        <article class="service-card"><h4>Microdermabrasion</h4></article>
+        <article class="service-card"><h4>Purifying</h4></article>
+        <article class="service-card"><h4>Anti Aging</h4></article>
+        <article class="service-card"><h4>Dermapen</h4></article>
+        <article class="service-card"><h4>V-Shape</h4></article>
+        <article class="service-card"><h4>BB Glow</h4></article>
+        <article class="service-card"><h4>Lymphatic Face Massage</h4></article>
+      </div>
+    </div>
+
+    <div class="service-category reveal delay-2">
+      <h3>Beauty Enhancements</h3>
+      <div class="card-grid services-compact">
+        <article class="service-card"><h4>Eyebrow Trimming</h4></article>
+        <article class="service-card"><h4>Eyelash Perming</h4></article>
+      </div>
+    </div>
+
+    <div class="service-category reveal delay-3">
+      <h3>Hair Styling &amp; Treatment</h3>
+      <div class="card-grid services-compact">
+        <article class="service-card"><h4>Cut &amp; Wash</h4></article>
+        <article class="service-card"><h4>Rebonding / Relaxing</h4></article>
+        <article class="service-card"><h4>Chemical Color</h4></article>
+        <article class="service-card"><h4>Organic Color</h4></article>
+        <article class="service-card"><h4>Henna</h4></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="why-us" class="section why-us">
+      <div class="container">
+        <div class="section-heading reveal">
+          <h2>Why Choose Us</h2>
+          <p>Everything we do is centered on quality care, comfort, and your confidence.</p>
+        </div>
+        <div class="card-grid highlights">
+          <article class="highlight-card reveal"><h3>Relaxing Environment</h3><p>A calm, cozy atmosphere that helps you unwind and reset.</p></article>
+          <article class="highlight-card reveal delay-1"><h3>Professional Beauty Care</h3><p>Skilled hands and thoughtful methods for safe, effective results.</p></article>
+          <article class="highlight-card reveal delay-2"><h3>Premium Treatments</h3><p>Curated services using quality products with modern beauty standards.</p></article>
+          <article class="highlight-card reveal delay-3"><h3>Personalised Service</h3><p>Each session is adjusted to your concerns, preferences, and goals.</p></article>
+          <article class="highlight-card reveal"><h3>Convenient Puchong Location</h3><p>Easily accessible in Bandar Kinrara with nearby amenities.</p></article>
+          <article class="highlight-card reveal delay-1"><h3>Complete Beauty Experience</h3><p>From hair to skin to wellness, enjoy full care in one place.</p></article>
+        </div>
+      </div>
+    </section>
+  <section class="section reviews-strip">
+  <div class="container">
+    <div class="section-heading reveal">
+      <h2>What Our Clients Say</h2>
+      <p>Trusted by happy clients for relaxing treatments, friendly service, and a clean ladies-only environment.</p>
+    </div>
+  </div>
+
+  <div class="reviews-marquee">
+    <div class="reviews-track">
+      <article class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>“Very relaxing and traditional skilled massage. Muslimah-friendly and specially for ladies only, with a safe and clean environment. Highly recommend Kak Novi with angel-like hands for head and shoulder relief.”</p>
+        <h4>— Cathryn Leong</h4>
+      </article>
+
+      <article class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>“Price is worth it with the service. Kak Ayu was very polite and gave good service.”</p>
+        <h4>— Merinss</h4>
+      </article>
+
+      <article class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>“Good service!”</p>
+        <h4>— Nur Aleesa Suhaidi</h4>
+      </article>
+
+      <article class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>“I had a basic facial treatment by Kak Ayu and left feeling like a new person. The treatment was so relaxing I almost fell asleep. My pores look much clearer and the glow is real.”</p>
+        <h4>— Aleea Suhaidi</h4>
+      </article>
+
+      <article class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>“Kak Ayu is very friendly and a good hair stylist and beauty therapist. Recommended to come here.”</p>
+        <h4>— Farhana Ayub Khan</h4>
+      </article>
+
+      <article class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>“Excellent.”</p>
+        <h4>— Eleena Osman</h4>
+      </article>
+
+      <article class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>“I am a regular customer for Kak Ayu. Good service for facial treatments.”</p>
+        <h4>— Noor Zhafarina Ameenudeen</h4>
+      </article>
+
+      <!-- duplicate for seamless infinite scroll -->
+      <article class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>“Very relaxing and traditional skilled massage. Muslimah-friendly and specially for ladies only, with a safe and clean environment. Highly recommend Kak Novi with angel-like hands for head and shoulder relief.”</p>
+        <h4>— Cathryn Leong</h4>
+      </article>
+
+      <article class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>“Price is worth it with the service. Kak Ayu was very polite and gave good service.”</p>
+        <h4>— Merinss</h4>
+      </article>
+
+      <article class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>“Good service!”</p>
+        <h4>— Nur Aleesa Suhaidi</h4>
+      </article>
+
+      <article class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>“I had a basic facial treatment by Kak Ayu and left feeling like a new person. The treatment was so relaxing I almost fell asleep. My pores look much clearer and the glow is real.”</p>
+        <h4>— Aleea Suhaidi</h4>
+      </article>
+
+      <article class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>“Kak Ayu is very friendly and a good hair stylist and beauty therapist. Recommended to come here.”</p>
+        <h4>— Farhana Ayub Khan</h4>
+      </article>
+
+      <article class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>“Excellent.”</p>
+        <h4>— Eleena Osman</h4>
+      </article>
+
+      <article class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>“I am a regular customer for Kak Ayu. Good service for facial treatments.”</p>
+        <h4>— Noor Zhafarina Ameenudeen</h4>
+      </article>
+    </div>
+  </div>
+</section>
+  
+
+    <section class="section cta-band">
+      <div class="container cta-band-inner reveal">
+        <h2>Ready to Feel Refreshed, Radiant, and Confident?</h2>
+        <p>Book your appointment today and let us tailor a beauty and wellness experience just for you.</p>
+        <div class="cta-group center">
+          <a class="btn btn-primary" href="https://wa.me/60132504420" target="_blank" rel="noopener">Book on WhatsApp</a>
+          <a class="btn btn-outline" href="tel:0132504420">Call 013-250 4420</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <h2>Contact Us</h2>
+          <p>We are here to help you plan the perfect treatment session.</p>
+          <ul class="contact-list">
+            <li><strong>Address:</strong> No 19-2 Jalan BK 5A/3A, Bandar Kinrara, Puchong, Malaysia</li>
+            <li><strong>Phone 1:</strong> <a href="tel:0132504420">013-250 4420</a></li>
+            <li><strong>Phone 2:</strong> <a href="tel:+60102505477">+60 10-250 5477</a></li>
+            <li><strong>Email:</strong> <a href="mailto:glowglam1010@gmail.com">glowglam1010@gmail.com</a></li>
+            <li><strong>Business Hours:</strong> Daily 10:00 AM – 8:00 PM (update as needed)</li>
+          </ul>
+
+          <div class="cta-group wrap">
+            <a class="btn btn-primary" href="https://wa.me/60132504420" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="btn btn-outline" href="tel:0132504420">Call</a>
+            <a class="btn btn-soft" href="mailto:glowglam1010@gmail.com">Email</a>
+            <a class="btn btn-soft" href="https://www.google.com/maps/search/?api=1&query=No%2019-2%20Jalan%20BK%205A%2F3A%2C%20Bandar%20Kinrara%2C%20Puchong%2C%20Malaysia" target="_blank" rel="noopener">Google Maps</a>
+          </div>
+        </div>
+
+        <div class="map-wrap reveal delay-1" aria-label="Map location placeholder for Glow and Glam Beaute Centre">
+          <!-- iframe-ready container: replace src for your preferred map embed -->
+          <iframe
+            title="Glow and Glam Beaute Centre location map"
+            loading="lazy"
+            allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=No+19-2+Jalan+BK+5A/3A,+Bandar+Kinrara,+Puchong,+Malaysia&output=embed">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#home" class="brand footer-brand" aria-label="Back to top">
+          <img src="./assets/logo.png" alt="Glow and Glam Beaute Centre logo" class="brand-logo">
+         <div class="brand-text">
+  <strong>Glow and Glam Beaute Centre</strong>
+  <span>Beauty for All</span>
+</div>
+        </a>
+      </div>
+
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#why-us">Why Choose Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Contact Summary</h3>
+        <ul>
+          <li><a href="tel:0132504420">013-250 4420</a></li>
+          <li><a href="tel:+60102505477">+60 10-250 5477</a></li>
+          <li><a href="mailto:glowglam1010@gmail.com">glowglam1010@gmail.com</a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&query=No%2019-2%20Jalan%20BK%205A%2F3A%2C%20Bandar%20Kinrara%2C%20Puchong%2C%20Malaysia" target="_blank" rel="noopener">Open in Google Maps</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Glow and Glam Beaute Centre. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/60132504420" target="_blank" rel="noopener" aria-label="Chat with Glow and Glam Beaute Centre on WhatsApp">
+    <span aria-hidden="true">💬</span>
+    <span>WhatsApp</span>
+  </a>
+
+  <div class="mobile-action-bar" aria-label="Quick contact actions">
+    <a href="https://wa.me/60132504420" target="_blank" rel="noopener">WhatsApp</a>
+    <a href="tel:0132504420">Call</a>
+    <a href="mailto:glowglam1010@gmail.com">Email</a>
+    <a href="https://www.google.com/maps/search/?api=1&query=No%2019-2%20Jalan%20BK%205A%2F3A%2C%20Bandar%20Kinrara%2C%20Puchong%2C%20Malaysia" target="_blank" rel="noopener">Maps</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
